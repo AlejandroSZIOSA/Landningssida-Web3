@@ -1,0 +1,108 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(181, 181, 181);
+  margin: 0;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(145, 99, 99);
+  height: 50px;
+  /* align-items: baseline; */
+  justify-content: space-between;
+}
+
+#logo{
+  padding: 5px;
+  font:large bolder black;
+}
+
+#logo img{
+  width:40px; 
+  height:40px;
+  margin-left:5px;
+  border-radius: 50%;
+}
+
+.navigation-container{
+  margin-top: 10px;
+}
+
+h1 {
+  font-size: large;
+}
+  
+a {
+  padding-right: 20px;
+}
+
+.button-ansök{
+  /* margin-left: 10px; */
+  background-color: rgb(127, 255, 251);
+  border: 2px solid rgb(68, 0, 255);
+  border-radius: 18%;
+  margin: 10px;
+}
+
+.hero-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: bisque;
+}
+
+h1, h2{
+  text-align: center;
+}
+
+.information-container{
+  display:flex;
+  clear: both;
+}
+
+#imgChas{
+  float: left;
+  width: 300px; 
+  height: 300px;
+  padding: 40px;
+}
+
+span {
+  font: xx-large bold black;
+}
+
+#informationText{
+  float:right;
+  margin-top: 45px;
+}
+
+.recommendation-container{
+  display: flex;
+  flex-direction: column;
+  background-color: burlywood;
+  margin: auto;
+}
+
+#recommendationHeader{
+  text-align: center;
+}
+
+#boxesContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+}
+
+.boxes {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(240, 240, 240);
+  border: 2px solid black
+}
+
+
