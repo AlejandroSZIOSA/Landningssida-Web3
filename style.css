@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -16,31 +16,31 @@ body {
   justify-content: space-between;
 }
 
-#logo{
+#logo {
   padding: 5px;
-  font:large bolder black;
+  font: large bolder black;
 }
 
-#logo img{
-  width:40px; 
-  height:40px;
-  margin-left:5px;
+#logo img {
+  width: 40px;
+  height: 40px;
+  margin-left: 5px;
   border-radius: 50%;
 }
 
-.navigation-container{
+.navigation-container {
   margin-top: 10px;
 }
 
 h1 {
   font-size: large;
 }
-  
+
 a {
   padding-right: 20px;
 }
 
-.button-ansök{
+.button-ansök {
   /* margin-left: 10px; */
   background-color: rgb(127, 255, 251);
   border: 2px solid rgb(68, 0, 255);
@@ -48,25 +48,22 @@ a {
   margin: 10px;
 }
 
-.hero-container{
+.hero-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: bisque;
-}
-
-h1, h2{
   text-align: center;
 }
 
-.information-container{
-  display:flex;
+.information-container {
+  display: flex;
   clear: both;
 }
 
-#imgChas{
+#imgChas {
   float: left;
-  width: 300px; 
+  width: 300px;
   height: 300px;
   padding: 40px;
 }
@@ -75,23 +72,23 @@ span {
   font: xx-large bold black;
 }
 
-#informationText{
-  float:right;
+#informationText {
+  float: right;
   margin-top: 45px;
 }
 
-.recommendation-container{
+.recommendation-container {
   display: flex;
   flex-direction: column;
   background-color: burlywood;
   margin: auto;
 }
 
-#recommendationHeader{
+#recommendationHeader {
   text-align: center;
 }
 
-#boxesContainer{
+#boxesContainer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -102,7 +99,17 @@ span {
   width: 200px;
   height: 200px;
   background-color: rgb(240, 240, 240);
-  border: 2px solid black
+  border: 2px solid black;
 }
 
+.callToAction-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(252, 217, 165);
+}
 
+/* #callToActionText {
+  text-align: center;
+} */
