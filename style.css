@@ -15,14 +15,14 @@ body {
   justify-content: space-between;
 }
 
-#logoHeader {
+#logoHeaderContainer {
   padding: 5px;
+  margin-left: 5px;
 }
 
-#logoHeader img {
+#logoHeaderContainer img {
   width: 40px;
   height: 40px;
-  margin-left: 5px;
   border-radius: 50%;
 }
 
@@ -30,16 +30,15 @@ body {
   margin-top: 10px;
 }
 
-h1 {
-  font-size: large;
-}
-
 a {
   padding-right: 20px;
 }
 
+h1 {
+  font-size: large;
+}
+
 .button-ansök {
-  /* margin-left: 10px; */
   background-color: rgb(127, 255, 251);
   border: 2px solid rgb(68, 0, 255);
   border-radius: 18%;
@@ -120,9 +119,30 @@ span {
   justify-content: space-around;
 }
 
-#logoFooter img {
+/* #logoFooter img {
   width: 80px;
   height: 80px;
   border-radius: 50%;
   margin-top: 14px;
+} */
+
+#logoFooter {
+  display: flex;
+  /* background-color: aquamarine; */
+  align-items: last baseline;
+  /* width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-top: 14px; */
+}
+
+#logoFooter div {
+  padding: 10px;
+}
+
+#logoFooter div img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  /* margin-top: 14px; */
 }
