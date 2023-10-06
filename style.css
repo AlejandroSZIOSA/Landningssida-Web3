@@ -20,6 +20,7 @@ body {
   margin-left: 5px;
 }
 
+/* Combine selectors */
 #logoHeaderContainer img {
   width: 45px;
   height: 45px;
@@ -37,7 +38,7 @@ a {
   text-decoration: overline;
 }
 
-/* Intressant function :) */
+/* Interesting function :) */
 a:hover {
   color: aqua;
 }
@@ -77,6 +78,7 @@ h2 {
   float: left;
   width: 300px;
   height: 300px;
+  border-radius: 20%;
   padding: 40px;
 }
 
@@ -130,16 +132,18 @@ span {
   background-color: rgb(39, 212, 255);
 }
 
-#logoFooter {
+#logoFooterContainer {
   display: flex;
   align-items: last baseline;
 }
 
-#logoFooter div {
+/* Combine selectors */
+#logoFooterContainer div {
   padding: 10px;
 }
 
-#logoFooter div img {
+/* Combine selectors */
+#logoFooterContainer div img {
   width: 30px;
   height: 30px;
   border-radius: 25%;
