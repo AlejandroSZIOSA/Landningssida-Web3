@@ -1,2 +1,1 @@
-1- Fix hero-container
-2- Fix Footer-container
+Nothing more right now :)
