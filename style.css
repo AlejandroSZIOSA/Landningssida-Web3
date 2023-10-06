@@ -10,19 +10,19 @@ body {
 .header-container {
   display: flex;
   flex-direction: row;
-  background-color: rgb(145, 99, 99);
+  background-color: rgb(163, 156, 250);
   height: 50px;
   justify-content: space-between;
 }
 
 #logoHeaderContainer {
-  padding: 5px;
+  padding: 2px;
   margin-left: 5px;
 }
 
 #logoHeaderContainer img {
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
 }
 
@@ -31,14 +31,26 @@ body {
 }
 
 a {
-  padding-right: 20px;
+  padding-right: 30px;
+  font-size: large;
+  color: rgb(0, 0, 0);
+  text-decoration: overline;
+}
+
+/* Intressant function :) */
+a:hover {
+  color: aqua;
 }
 
 h1 {
+  font-size: x-large;
+}
+
+h2 {
   font-size: large;
 }
 
-.button-ansök {
+#btn-ansök {
   background-color: rgb(127, 255, 251);
   border: 2px solid rgb(68, 0, 255);
   border-radius: 18%;
@@ -58,6 +70,7 @@ h1 {
   flex-direction: row;
   justify-content: center;
   clear: both;
+  background-color: rgb(191, 255, 255);
 }
 
 #imgChas {
@@ -85,6 +98,7 @@ span {
 
 #recommendationHeader {
   text-align: center;
+  font-size: x-large;
 }
 
 #boxesContainer {
@@ -97,7 +111,7 @@ span {
 .boxes {
   width: 200px;
   height: 200px;
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(243, 255, 255);
   border: 2px solid black;
 }
 
@@ -107,33 +121,18 @@ span {
   align-items: center;
   text-align: center;
   background-color: rgb(252, 217, 165);
-  font: larger bold black;
+  font: x-large bold black;
 }
-
-/* #callToActionText {
-  text-align: center;
-} */
 
 .footer-container {
   display: flex;
   justify-content: space-around;
+  background-color: rgb(39, 212, 255);
 }
-
-/* #logoFooter img {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  margin-top: 14px;
-} */
 
 #logoFooter {
   display: flex;
-  /* background-color: aquamarine; */
   align-items: last baseline;
-  /* width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  margin-top: 14px; */
 }
 
 #logoFooter div {
@@ -141,8 +140,7 @@ span {
 }
 
 #logoFooter div img {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  /* margin-top: 14px; */
+  width: 30px;
+  height: 30px;
+  border-radius: 25%;
 }
